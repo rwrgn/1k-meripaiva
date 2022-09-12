@@ -8,7 +8,16 @@ a.fillStyle="#fff";a.font="32px consolas";a.textAlign="center";
 a.fillText("CLICK ANYWHERE TO START",960,540);
 onclick=()=>{
  onclick=null;
- c.style.position=`fixed`,c.height=1080;A=new AudioContext,w=A.createScriptProcessor(2048,c.style.left=c.style.top=e=0,1),w.connect(A.destination),w.onaudioprocess=t=>{for(r=e>48?3:((e/12|0)+4)%5,c.style.background=[`linear-gradient(#000,#445`,`linear-gradient(#9bc,#adf`,`radial-gradient(#fff,#adf`,`radial-gradient(#ff5,#c52`,`radial-gradient(#fff,#002`][r],c.width=1920,a.fillStyle=[`#ff40`,`#ff40`,`#ff40`,`#ff45`,`#fff5`][r],a.arc(960,620,200,0,200),a.fill(),h=0;7>h;h++)for(x=0;1920>x;){for(f=2*(h+1)+8*Math.abs(Math.sin(x/120))*(3>r)+(2>r)*4,b=9-h,v=4,s=i=0;7>i;i++)a.fillStyle=[`#`+(v+b-1)+(v+b)+(v+b),`#`+(v+b/4|0)+(v+b)+(v+b)%10,`#`+(v+b/3|0)+(v+b/2|0)+(v+b),`#`+(v+b)+(v+b/5|0)+(v+b/3|0),`#`+(v+b/3|0)+(v+b/2|0)+(v+b)][r],a.globalAlpha=h/12,n=[x,s+540+h*40+Math.sin((x-e*(h+1)*8)*((2|h)*2)/2120+e*[4,3.14,3.14,1,1][r])*[90,45,22,8,8][r]+Math.cos(e+x/200+h)*h*10*(3>r)+(d=Math.random()*[20,10,3,2,2][r]),f,5*f>s&r>0?f:400,6,400,6,900,4,1400,2,1500,2,240],a.fillRect(...n),o=2*r+4,s==f&h==n[o++]&x>n[o]&n[o]+12>x&&(a.fillStyle=`#fec`,a.globalAlpha=.8,a.font=h*6+`px f`,a.fillText(`\u26f4`,n[0],n[1]-d+12)),v--,s+=f;12>e&&(a.fillStyle=`#fff`,a.fillText(`,`,x,580*Math.sin(x*32))),x+=f}a.font=h*6+`px f`,a.fillText([`water, water, everywhere`,`so let's all have a \ud83c\udf79`][(e>68)+e/63|0].substr(0,(e-58)%5*12),200,200),a.globalAlpha=(1>e%12)*(1-e%12)*(58>e),a.fillRect(0,0,c.width,c.width);for(i=0;2048>i;i++)t.outputBuffer.getChannelData(0)[i]=Math.random()*(3>r)*(4-r)*n[1]*2e-5/(r+1),e+=2e-5}
+ c.style.position=`fixed`,c.height=1080;A=new AudioContext,w=A.createScriptProcessor(2048,c.style.left=c.style.top=e=0,1),w.connect(A.destination),
+ w.onaudioprocess=t=>{for(r=e>48?3:((e/12|0)+4)%5,c.style.background=[`linear-gradient(#000,#445`,`linear-gradient(#9bc,#adf`,`radial-gradient(#fff,#adf`,
+ `radial-gradient(#ff5,#c52`,`radial-gradient(#fff,#002`][r],c.width=1920,a.fillStyle=[`#ff40`,`#ff40`,`#ff40`,`#ff45`,`#fff5`][r],a.arc(960,620,200,0,200),
+ a.fill(),h=0;7>h;h++)for(x=0;1920>x;){for(f=2*(h+1)+8*Math.abs(Math.sin(x/120))*(3>r)+(2>r)*4,b=9-h,v=4,s=i=0;7>i;i++)a.fillStyle=[`#`+(v+b-1)+(v+b)+(v+b),
+ `#`+(v+b/4|0)+(v+b)+(v+b)%10,`#`+(v+b/3|0)+(v+b/2|0)+(v+b),`#`+(v+b)+(v+b/5|0)+(v+b/3|0),`#`+(v+b/3|0)+(v+b/2|0)+(v+b)][r],a.globalAlpha=h/12,
+ n=[x,s+540+h*40+Math.sin((x-e*(h+1)*8)*((2|h)*2)/2120+e*[4,3.14,3.14,1,1][r])*[90,45,22,8,8][r]+Math.cos(e+x/200+h)*h*10*(3>r)+(d=Math.random()*[20,10,3,2,2][r]),
+ f,5*f>s&r>0?f:400,6,400,6,900,4,1400,2,1500,2,240],a.fillRect(...n),o=2*r+4,s==f&h==n[o++]&x>n[o]&n[o]+12>x&&(a.fillStyle=`#fec`,a.globalAlpha=.8,
+ a.font=h*6+`px f`,a.fillText(`\u26f4`,n[0],n[1]-d+12)),v--,s+=f;12>e&&(a.fillStyle=`#fff`,a.fillText(`,`,x,580*Math.sin(x*32))),x+=f}a.font=h*6+`px f`,
+ a.fillText([`water, water, everywhere`,`so let's all have a \ud83c\udf79`][(e>68)+e/63|0].substr(0,(e-58)%5*12),200,200),a.globalAlpha=(1>e%12)*(1-e%12)*(58>e),
+ a.fillRect(0,0,c.width,c.width);for(i=0;2048>i;i++)t.outputBuffer.getChannelData(0)[i]=Math.random()*(3>r)*(4-r)*n[1]*2e-5/(r+1),e+=2e-5}
 }
 }
 </script>
