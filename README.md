@@ -1,4 +1,4 @@
-# 1k-meripaiva
+# 1k-meripäivä
 JavaScript intro for Assembly Summer 2022, placed 3rd in the 1k intro competition
 
 ![Alt text](/screenshot.png?raw=true "Screenshot")
