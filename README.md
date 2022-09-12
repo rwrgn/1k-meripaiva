@@ -1,7 +1,7 @@
 # 1k-meripaiva
 JavaScript intro for Assembly Summer 2022, placed 3rd in the 1k intro competition
 
-![Alt text](/screenshot.jpg?raw=true "Screenshot")
+![Alt text](/screenshot.png?raw=true "Screenshot")
 
 Uses ScriptProcessorNode for audio and timing plus 2d canvas for graphics.
 
