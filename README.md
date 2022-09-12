@@ -11,7 +11,7 @@ Packed with pnginator: https://gist.github.com/gasman/2560551
 Video capture: https://www.youtube.com/watch?v=iWdY9DUJ3HQ
 
 
-# Running Instructions
+## Running Instructions
 
 Tested on Firefox 103.0.1 and Chrome 104.0.5112.81.
 
@@ -22,7 +22,7 @@ Firefox 103.0.1 does not seem to allow autoplaying .png-compressed .htm files by
 Also included is a safe version of the intro, which contains the uncompressed code and should work ok without any additional command line switches or settings, on both browsers, but requires an user interaction to start.
 
 
-# A Very Brief Technical Writeup
+## A Very Brief Technical Writeup
 
 Uncompressed code takes 1507 bytes, which compresses neatly to 1024 bytes with pnginator. Repetitiveness of long passages of background style and color definitions is the key here, as can probably be seen in the gzthermal thermal map below.
 
